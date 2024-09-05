@@ -1,0 +1,33 @@
+.order-book {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-book-column {
+  width: 45%;
+}
+
+.order-book-column h2 {
+  text-align: center;
+  color: #333;
+}
+
+.order-book-row {
+  display: flex;
+  
+  justify-content: space-between;
+  padding: 5px 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.order-book-row span {
+  flex: 1;
+}
+
+.order-book-row span:first-child {
+  color: green;
+}
+
+.order-book-row span:last-child {
+  color: red;
+}
